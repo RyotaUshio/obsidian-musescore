@@ -25,7 +25,7 @@ This plugin is in beta. You can install it using [BRAT](https://github.com/TfTHa
 ## FAQs
 
 - Where do I find the path of the MuseScore executable?
-  - It depends on the operation system you are on. See the following pages in the MuseScore handbook: [Command line usage](https://musescore.org/ja/node/329750) & [Revert to factory settings - Via command line](https://musescore.org/ja/%E3%83%8F%E3%83%B3%E3%83%89%E3%83%96%E3%83%83%E3%82%AF/revert-factory-settings#Via_command_line).
+  - It depends on which operation system you are on. See the following pages in the MuseScore handbook: [Command line usage](https://musescore.org/ja/node/329750) & [Revert to factory settings - Via command line](https://musescore.org/ja/%E3%83%8F%E3%83%B3%E3%83%89%E3%83%96%E3%83%83%E3%82%AF/revert-factory-settings#Via_command_line).
 
 ## Support development
 
