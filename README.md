@@ -1,7 +1,7 @@
 # MuseScore integration plugin for Obsidian
 
 This is an [Obsidian.md](https://obsidian.md) plugin for embedding sheet music created by [MuseScore](https://musescore.org) in your notes.
-MuseScore is a free, open-source music notation application. This plugin allows you to embed MuseScore's native .mscz/.mscz files directly in your markdown/canvas files with the standard syntax `![[Your sheet music.mscz]]` without having to manually export them into another file format that Obsidian recognizes natively like PDF, PNG, or SVG.
+MuseScore is a free, open-source music notation application. This plugin allows you to embed MuseScore's native .mscz/.mscx files directly in your markdown/canvas files with the standard syntax `![[Your sheet music.mscz]]` without having to manually export them into another file format that Obsidian recognizes natively like PDF, PNG, or SVG.
 
 This works by **auto-exporting** into PDF. Whenever a MuseScore file inside your vault is newly created or modified, this plugin automatically converts it into PDF using the [command-line interface](https://musescore.org/en/handbook/4/command-line-usage) of MuseScore.
 Then, if an .mscz file is embedded, this plugin tells Obsidian to display the corresponding PDF file instead.
