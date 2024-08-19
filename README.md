@@ -32,7 +32,7 @@ This plugin is in beta. You can install it using [BRAT](https://github.com/TfTHa
 |                                                                                 | PDF (.pdf) | MusicXML (.mxl) |
 | ------------------------------------------------------------------------------- | ---------- | --------------- |
 | Render bars specified in subpath (`#bar=...`) only                              | No         | Yes ✅           |
-| Control whether to display title & composer by subpath (`#nocredit`)            | No         | Yes ✅           |
+| Control whether to display title & composer by subpath (`#nocredits`)           | No         | Yes ✅           |
 | Performance                                                                     | Fast ✅     | Might be slow   |
 | File size                                                                       | larger     | smaller ✅       |
 | Requires [another plugin](https://github.com/RyotaUshio/obsidian-osmd-musicxml) | No ✅       | Yes             |
