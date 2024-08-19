@@ -6,7 +6,7 @@ MuseScore is a free, open-source music notation application. This plugin allows 
 This works by **auto-exporting** into PDF. Whenever a MuseScore file inside your vault is newly created or modified, this plugin automatically converts it into PDF using the [command-line interface](https://musescore.org/en/handbook/4/command-line-usage) of MuseScore.
 Then, if an .mscz file is embedded, this plugin tells Obsidian to display the corresponding PDF file instead.
 
-In addition to PDF, this plugin also supports using the [MusicXML](https://www.musicxml.com) format if you have the [OSMD MusicXML Viewer plugin](https://github.com/RyotaUshio/obsidian-osmd-musicxml) installed (that's another plugin by me).
+In addition to PDF, this plugin also supports using the compressed [MusicXML](https://www.musicxml.com) format if you have the [OSMD MusicXML Viewer plugin](https://github.com/RyotaUshio/obsidian-osmd-musicxml) installed (that's another plugin by me).
 By using MusicXML, you can further control the rendering behavior. For example, you can embed only the first two bars of a song by `![[song.mscz#bar=1-2]]`. See the documentation of the OSMD MusicXML Viewer plugin for more details.
 However, that plugin is still in the early development phase, and embedding as MusicXML is typically way slower than embedding as PDF. For the time being, I'd recommend sticking to PDF.
 
@@ -26,6 +26,18 @@ This plugin is in beta. You can install it using [BRAT](https://github.com/TfTHa
 
 - Where do I find the path of the MuseScore executable?
   - It depends on which operation system you are on. See the following pages in the MuseScore handbook: [Command line usage](https://musescore.org/ja/node/329750) & [Revert to factory settings - Via command line](https://musescore.org/ja/%E3%83%8F%E3%83%B3%E3%83%89%E3%83%96%E3%83%83%E3%82%AF/revert-factory-settings#Via_command_line).
+
+## Comparison: PDF vs MusicXML
+
+|                                                                                 | PDF (.pdf) | MusicXML (.mxl) |
+| ------------------------------------------------------------------------------- | ---------- | --------------- |
+| Render bars specified in subpath (`#bar=...`) only                              | No         | Yes ✅           |
+| Control whether to display title & composer by subpath (`#nocredit`)            | No         | Yes ✅           |
+| Performance                                                                     | Fast ✅     | Might be slow   |
+| File size                                                                       | larger     | smaller ✅       |
+| Requires [another plugin](https://github.com/RyotaUshio/obsidian-osmd-musicxml) | No ✅       | Yes             |
+| Preserves layout                                                                | Yes ✅      | Not always      |
+| Audio playback                                                                  | No         | Planned ✅       |
 
 ## Support development
 
