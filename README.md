@@ -14,7 +14,7 @@ Note:
 
 - Before being able to use this plugin, you have to go to the plugin settings, provide the MuseScore executable path (see [below](#faqs) for some instructions) and then restart Obsidian.
 - Auto-export typically takes from a few seconds to ten seconds for each MuseScore file.
-- This plugin targets MuseScore files **inside the vault** only and does not handle ones outside the vault.
+- This plugin targets MuseScore files **inside the vault** only and does not handle ones outside the vault. You might want to change MuseScore's default save location (MuseScore > Preferences > Folders > Scores).
 - Auto-export works only on desktop. On mobile, however, the embedding feature will still work as long as the exported files (PDF/MusicXML) are synced with the desktop (e.g. using Obsidian sync or iCloud sync).
 - This plugin is tested with MuseScore 4. It is likely to be compatible with Version 3 too, but I haven't tested it yet.
 
